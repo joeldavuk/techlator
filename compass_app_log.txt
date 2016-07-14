@@ -1,0 +1,76 @@
+2016-07-13 22:18:14    create css/styles.css 
+2016-07-13 22:18:34     error sass/styles.scss (Line 6: Invalid CSS after "$diceBlack": expected selector or at-rule, was ":")
+2016-07-13 22:18:34 overwrite css/styles.css 
+2016-07-13 22:19:59     error sass/styles.scss (Line 5: Invalid CSS after "$diceRed:": expected expression (e.g. 1px, bold), was "#")
+2016-07-13 22:19:59 overwrite css/styles.css 
+2016-07-13 22:20:23     error sass/styles.scss (Line 8: Invalid CSS after "$diceGrey": expected selector or at-rule, was ":")
+2016-07-13 22:20:23 overwrite css/styles.css 
+2016-07-13 22:20:36     error sass/styles.scss (Line 9: Invalid CSS after "$diceGrey": expected selector or at-rule, was ":")
+2016-07-13 22:20:36 overwrite css/styles.css 
+2016-07-13 22:24:12 overwrite css/styles.css 
+2016-07-13 22:25:37    remove .sass-cache/ 
+2016-07-13 22:25:37    remove css/styles.css 
+2016-07-13 22:25:41    create css/styles.css 
+2016-07-13 22:26:29    remove .sass-cache/ 
+2016-07-13 22:26:32    create css/styles.css 
+2016-07-13 22:27:09 overwrite css/styles.css 
+2016-07-13 22:27:18 overwrite css/styles.css 
+2016-07-13 22:27:35 overwrite css/styles.css 
+2016-07-13 22:27:55 overwrite css/styles.css 
+2016-07-13 22:38:12 overwrite css/styles.css 
+2016-07-13 22:38:36 overwrite css/styles.css 
+2016-07-13 22:38:46 overwrite css/styles.css 
+2016-07-13 22:38:57 overwrite css/styles.css 
+2016-07-13 22:39:35 overwrite css/styles.css 
+2016-07-13 22:40:44 overwrite css/styles.css 
+2016-07-13 22:40:56     error sass/styles.scss (Line 15: Invalid CSS after "  max-width:": expected expression (e.g. 1px, bold), was "}")
+2016-07-13 22:40:56 overwrite css/styles.css 
+2016-07-13 22:41:07 overwrite css/styles.css 
+2016-07-13 22:41:23 overwrite css/styles.css 
+2016-07-13 22:41:32 overwrite css/styles.css 
+2016-07-13 22:42:12 overwrite css/styles.css 
+2016-07-13 22:42:14 overwrite css/styles.css 
+2016-07-13 22:42:32 overwrite css/styles.css 
+2016-07-13 22:42:51 overwrite css/styles.css 
+2016-07-13 22:43:16 overwrite css/styles.css 
+2016-07-13 22:43:22 overwrite css/styles.css 
+2016-07-13 22:44:13 overwrite css/styles.css 
+2016-07-13 22:44:31 overwrite css/styles.css 
+2016-07-13 22:45:07 overwrite css/styles.css 
+2016-07-13 22:45:13 overwrite css/styles.css 
+2016-07-13 22:46:13 overwrite css/styles.css 
+2016-07-13 22:46:35 overwrite css/styles.css 
+2016-07-13 22:47:00 overwrite css/styles.css 
+2016-07-13 22:47:05     error sass/styles.scss (Line 11: Invalid CSS after "  height:100%;": expected "}", was ",html")
+2016-07-13 22:47:05 overwrite css/styles.css 
+2016-07-13 22:47:11 overwrite css/styles.css 
+2016-07-13 22:47:49 overwrite css/styles.css 
+2016-07-13 22:48:02 overwrite css/styles.css 
+2016-07-13 22:48:57     error sass/styles.scss (Line 47: Invalid CSS after "      max-width:": expected expression (e.g. 1px, bold), was "}")
+2016-07-13 22:48:57 overwrite css/styles.css 
+2016-07-13 22:49:09 overwrite css/styles.css 
+2016-07-13 23:48:03 overwrite css/styles.css 
+2016-07-13 23:49:13 identical css/styles.css 
+2016-07-13 23:49:59 overwrite css/styles.css 
+2016-07-13 23:50:23 overwrite css/styles.css 
+2016-07-13 23:50:37 overwrite css/styles.css 
+2016-07-13 23:51:06 overwrite css/styles.css 
+2016-07-13 23:51:14 overwrite css/styles.css 
+2016-07-13 23:51:35 overwrite css/styles.css 
+2016-07-13 23:51:43 overwrite css/styles.css 
+2016-07-13 23:51:48 overwrite css/styles.css 
+2016-07-13 23:51:55 overwrite css/styles.css 
+2016-07-13 23:52:06 overwrite css/styles.css 
+2016-07-13 23:52:22 overwrite css/styles.css 
+2016-07-13 23:54:06 overwrite css/styles.css 
+2016-07-13 23:54:24 overwrite css/styles.css 
+2016-07-13 23:55:22 overwrite css/styles.css 
+2016-07-13 23:56:01 overwrite css/styles.css 
+2016-07-14 00:02:21 overwrite css/styles.css 
+2016-07-14 00:03:47 overwrite css/styles.css 
+2016-07-14 00:04:10 overwrite css/styles.css 
+2016-07-14 00:04:23 overwrite css/styles.css 
+2016-07-14 00:04:36 overwrite css/styles.css 
+2016-07-14 00:05:01 overwrite css/styles.css 
+2016-07-14 00:05:25 overwrite css/styles.css 
+2016-07-14 00:06:20 overwrite css/styles.css 

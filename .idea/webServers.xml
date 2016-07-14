@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82750855-28a2-44d7-b616-5f6c5b28def0" name="Techlator - LCN" url="http://upload.lcn.com">
+        <fileTransfer host="upload.lcn.com" port="21" username="ftp_techlator_co_uk">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

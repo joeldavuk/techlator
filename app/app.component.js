@@ -9,17 +9,40 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
+var common_1 = require('@angular/common');
+var ng2_bootstrap_2 = require('ng2-bootstrap/ng2-bootstrap');
+var translate_service_1 = require('app/services/translate.service');
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(TranslateService) {
+        this.disabled = false;
+        this.status = { isopen: false };
+        this.items = ['The first choice!',
+            'And another choice for you.', 'but wait! A third!'];
+        this.translations = TranslateService.getWords();
     }
+    AppComponent.prototype.toggled = function (open) {
+        console.log('Dropdown is now: ', open);
+    };
+    AppComponent.prototype.translateWord = function (event) {
+        console.log(event.target.innerHTML);
+    };
+    AppComponent.prototype.toggleDropdown = function ($event) {
+        $event.preventDefault();
+        $event.stopPropagation();
+        this.status.isopen = !this.status.isopen;
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'techlator-app',
-            template: '<h1>Techlator</h1>'
+            directives: [ng2_bootstrap_1.AlertComponent, ng2_bootstrap_2.DROPDOWN_DIRECTIVES, common_1.CORE_DIRECTIVES],
+            templateUrl: '/view/main.html',
+            providers: [translate_service_1.TranslateService]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [(typeof (_a = typeof translate_service_1.TranslateService !== 'undefined' && translate_service_1.TranslateService) === 'function' && _a) || Object])
     ], AppComponent);
     return AppComponent;
+    var _a;
 }());
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map

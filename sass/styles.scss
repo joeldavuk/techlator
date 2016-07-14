@@ -1,0 +1,94 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+$diceRedLight:#fa0001;
+$diceRedMuted:#ce2029;
+$diceRedDark:#d50100;
+$diceMutedGrey:#dbdbdb;
+
+body,html {
+  background:#000c14 url('/img/bg.jpg') 50% 50% no-repeat;
+  height:100%;
+  min-height:900px;
+}
+.main {
+  height:100%;
+  max-width:870px;
+  margin:0 auto;
+  padding:0 80px;
+  position:relative;
+
+  .header {
+    .logo {
+      text-align: center;
+      padding: 30px 0 30px 0;
+    }
+    p {
+      text-align:center;
+      color:#fff;
+      font-size:24px;
+      line-height:24px;
+      padding:10px 0px;
+    }
+  }
+  .selection {
+      z-index:3;
+      position:relative;
+      color:#fff;
+      text-align:center;
+      label {
+        color:$diceMutedGrey;
+      }
+  }
+  .guy {
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:2;
+
+    img {
+      width:100%;
+      max-width:628px;
+    }
+  }
+  .words {
+    position:absolute;
+    text-align:center;
+    position:absolute;
+    bottom:240px;
+    left:0;
+    right:0;
+    z-index:1;
+    img {
+      width:100%;
+      max-width:430px;
+    }
+  }
+  #translate-dropdown {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fa0001+0,ce2029+49,d50100+100 */
+    background: #fa0001; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fa0001 0%, #ce2029 49%, #d50100 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fa0001 0%,#ce2029 49%,#d50100 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fa0001 0%,#ce2029 49%,#d50100 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa0001', endColorstr='#d50100',GradientType=0 ); /* IE6-9 */
+    color:#fff;
+    padding:8px;
+    border-radius:10px;
+    margin-top:10px;
+    text-align:left;
+  }
+  .selection-dropdown,#translate-dropdown {
+    width:340px;
+    display:block;
+    margin:0 auto;
+  }
+  .footer {
+    position:absolute;
+    bottom:10px;
+    right:10px;
+  }
+}
+
